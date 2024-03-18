@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
     
+    <script type="module" crossorigin src="/goit-js-hw-10/assets/modulepreload-polyfill-3cfb730f.js"></script>
     <script type="module" crossorigin src="/goit-js-hw-10/assets/vendor-9808d4ac.js"></script>
-    <script type="module" crossorigin src="/goit-js-hw-10/assets/1-timer-6712f5cd.js"></script>
-    <link rel="stylesheet" href="/goit-js-hw-10/assets/index-4c7bd0e2.css">
+    <script type="module" crossorigin src="/goit-js-hw-10/assets/1-timer-dc74e818.js"></script>
+    <script type="module" crossorigin src="/goit-js-hw-10/assets/2-snackbar-4ed993c7.js"></script>
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/index-3b868b9d.css">
   </head>
   <body>
     <!DOCTYPE html>
@@ -17,7 +19,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
-    <title>Page 2</title>
+    <title>Page 1</title>
   </head>
   <body>
     <input type="text" id="datetime-picker" />
@@ -44,6 +46,37 @@
   </body>
 </html>
 
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
+    <title>Page 2</title>
+  </head>
+  <body>
+    <form class="form">
+      <label>
+        Delay (ms)
+        <input type="number" name="delay" required />
+      </label>
+
+      <fieldset>
+        <legend>State</legend>
+        <label>
+          <input type="radio" name="state" value="fulfilled" required />
+          Fulfilled
+        </label>
+        <label>
+          <input type="radio" name="state" value="rejected" required />
+          Rejected
+        </label>
+      </fieldset>
+
+      <button type="submit">Create notification</button>
+    </form>
+  </body>
+</html>
+
   </body>
 </html>
